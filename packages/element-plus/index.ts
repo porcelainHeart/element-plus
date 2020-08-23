@@ -27,6 +27,7 @@ import ElCollapse from '@element-plus/collapse'
 import ElPopper from '@element-plus/popper'
 import ElTabs from '@element-plus/tabs'
 import ElTooltip from '@element-plus/tooltip'
+import ElInput from '@element-plus/input'
 
 export {
   ElAlert,
@@ -56,6 +57,7 @@ export {
   ElCollapse,
   ElTabs,
   ElTooltip,
+  ElInput,
 }
 
 export default function install(app: App): void {
@@ -87,4 +89,5 @@ export default function install(app: App): void {
   ElPopper(app)
   ElTabs(app)
   ElTooltip(app)
+  ElInput(app)
 }
